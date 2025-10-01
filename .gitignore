@@ -1,3 +1,14 @@
-# Godot 4+ specific ignores
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas temporales de Godot
+.import/
+.export/
+
+# Archivos de caché
+*.tmp
+*.log
+
+# Configuración local de editor
 .godot/
-/android/
